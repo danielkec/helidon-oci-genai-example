@@ -1,0 +1,11 @@
+server:
+  host: "0.0.0.0"
+  port: 8080
+
+langchain4j:
+  oci-gen-ai:
+    chat-model:
+      enabled: true
+      region: "uk-london-1"
+      compartment-id: "ocid1.tenancy.oc1..aaaaaaaaonou******************************************"
+      model-name: "meta.llama-3.3-70b-instruct"
